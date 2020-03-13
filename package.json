@@ -1,0 +1,25 @@
+{
+  "name": "onsite-challenge",
+  "version": "1.0.0",
+  "description": "PayFit Onsite Challenge",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm-watch",
+    "lint": "standard",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "watch": {
+    "test": "{index,test}.js"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "standard": "^14.3.1",
+    "npm-watch": "^0.6.0"
+  },
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}
